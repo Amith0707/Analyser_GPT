@@ -28,7 +28,13 @@ Analyser-GPT is an AI-powered tool that analyzes datasets and provides intellige
 ## Project Overview  
 Analyser-GPT makes it easier for developers and analysts to explore datasets with minimal coding. By combining **GPT models** with **pandas, matplotlib, and Streamlit**, it creates an end-to-end pipeline for dataset understanding.  
 
-The project is designed with modularity and extensibility in mind, making it suitable for **quick experiments**, **teaching demos**, and **lightweight data observability tasks**.  
+The project is powered by the **Autogen framework**, which enables the creation of **multi-agent teams** for collaborative problem solving. Each agent in the team has a dedicated role, such as:  
+- **Data Agent** – responsible for dataset loading, cleaning, and validation  
+- **Analysis Agent** – performs statistical summaries and exploratory data analysis  
+- **Visualization Agent** – generates plots and dashboards for insights  
+- **Supervisor Agent** – manages interactions, routes tasks, and validates results  
+
+This agentic design ensures modularity, extensibility, and efficient task delegation. The framework makes the project suitable for **quick experiments**, **teaching demos**, and **lightweight data observability tasks**.  
 
 ---
 
