@@ -1,0 +1,6 @@
+# Open the CSV file and count the number of rows
+with open('data.csv', 'r') as file:
+    total_rows = sum(1 for line in file) - 1  # Subtracting 1 for the header
+
+# Print the total number of rows
+print(f'The total number of rows in the dataset is: {total_rows}')
