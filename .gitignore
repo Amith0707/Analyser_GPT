@@ -1,0 +1,19 @@
+# Still ignore temp or system files
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/*.pyc
+
+# Ignore other folders
+.env/
+agentic/
+data2/
+Hugging Face/
+hub/
+TP/
+# Ignore root files you don’t want
+pydantic.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
+github repos.txt
