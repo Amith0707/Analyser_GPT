@@ -4,13 +4,15 @@ Analyser-GPT is an AI-powered tool that analyzes datasets and provides intellige
 
 ## Demo Screenshots  
 
-
+### Streamlit Dashboard  
+![Streamlit Dashboard](./assets/dashboard.png)  
+### Working
+![Streamlit Dashboard](./assets/working.png)  
 ---
 
 ## Table of Contents  
 - [Project Overview](#project-overview)  
 - [Features](#features)  
-- [Project Structure](#project-structure)  
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [Streamlit App](#streamlit-app)  
@@ -67,18 +69,6 @@ This agentic design ensures modularity, extensibility, and efficient task delega
 
 ---
 
-## Project Structure  
-Analyser_GPT/
-│── main.py # CLI-based entry point
-│── streamlit_app.py # Streamlit dashboard
-│── modules/ # Helper functions (analysis, AI calls, visualization)
-│── requirements.txt # Dependencies
-│── Dockerfile # Containerized setup
-│── README.md # Documentation
-
-
-
----
 
 ## Installation  
 ```bash
